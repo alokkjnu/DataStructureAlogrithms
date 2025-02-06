@@ -1,4 +1,7 @@
-#Commonalities In two Dictonaries
+"""
+Python program to find the Commonalities In two Dictonaries
+"""
+
 a = {
     'x' : 1,
     'y' : 2,
