@@ -22,6 +22,8 @@ print(a.items() & b.items())
 
 #make a new Dictonary with certain keyword
 
-c = { key : a[key] for key in a.keys() - {'z','w'}}
+c = { 
+    key : a[key] for key in a.keys() - {'z','w'}
+    }
 
 print(c)
