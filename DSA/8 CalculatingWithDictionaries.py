@@ -15,6 +15,7 @@ min_price = min(zip(price.values(),price.keys()))
 print(min_price)
 
 max_price = max(zip(price.values(),price.keys()))
+
 print(max_price)
 
 price_sorted = sorted(zip(price.values(),price.keys()))
