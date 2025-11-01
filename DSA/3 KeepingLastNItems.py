@@ -1,5 +1,6 @@
 """
 Write a Python program to Keeping the last N items.
+
 """
 from collections import deque
 
