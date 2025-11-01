@@ -50,4 +50,5 @@ q.pop()
 print(q)
 
 q.popleft()
+
 print(q)
