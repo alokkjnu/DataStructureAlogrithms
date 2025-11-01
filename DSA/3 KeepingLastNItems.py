@@ -46,6 +46,7 @@ q.appendleft(4)
 print(q)
 
 q.pop()
+
 print(q)
 q.popleft()
 print(q)
