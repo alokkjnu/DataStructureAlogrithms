@@ -42,6 +42,7 @@ q.append(3)
 print(q)
 
 q.appendleft(4)
+
 print(q)
 q.pop()
 print(q)
