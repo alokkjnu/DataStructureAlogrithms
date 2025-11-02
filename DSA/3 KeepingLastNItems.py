@@ -31,6 +31,7 @@ q.append(2)
 q.append(3)
 q.append(4)
 q.append(5)
+
 print(q)
 
 q = deque()
