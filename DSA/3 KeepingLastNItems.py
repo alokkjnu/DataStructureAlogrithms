@@ -14,8 +14,9 @@ def search(lines, pattern, history=5):
 
 
 if __name__ == '__main__':
-    
+
     with open('msg.txt') as f:
+        
         for line, prevline in search(f, 'Python', 5):
             for pline in prevline:
                 print(pline, end='')
