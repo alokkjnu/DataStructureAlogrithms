@@ -18,13 +18,14 @@ if __name__ == '__main__':
     with open('msg.txt') as f:
 
         for line, prevline in search(f, 'Python', 5):
-            
+
             for pline in prevline:
                 print(pline, end='')
             print(line, end='')
             print('_' * 20)
 
 q = deque(maxlen=3)
+
 q.append(1)
 q.append(2)
 q.append(3)
