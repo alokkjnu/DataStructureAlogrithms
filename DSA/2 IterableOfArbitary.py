@@ -28,6 +28,7 @@ print("name : ",name)
 print("year : ",year)
 
 item = [1,10,7,8,6,3,4]
+
 head,*trail = item
 print("head : ",head)
 print("trail : ",trail)
