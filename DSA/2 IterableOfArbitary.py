@@ -30,13 +30,14 @@ print("year : ",year)
 item = [1,10,7,8,6,3,4]
 
 head,*trail = item
+
 print("head : ",head)
 print("trail : ",trail)
 
 def sum(item):
 
     head,*trail = item
-    
+
     return head + sum(trail) if trail else head
 
 print(sum(item))
