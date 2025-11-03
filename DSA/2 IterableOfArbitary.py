@@ -34,7 +34,8 @@ print("head : ",head)
 print("trail : ",trail)
 
 def sum(item):
-    
+
     head,*trail = item
     return head + sum(trail) if trail else head
+    
 print(sum(item))
