@@ -1,4 +1,5 @@
-"""# Keeping the last N items"""
+"""
+Keeping the last N items"""
 from collections import deque
 
 
