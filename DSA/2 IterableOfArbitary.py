@@ -16,6 +16,7 @@ print("email : " ,email)
 print("phone nu : ",phone_number)
 
 *trailing, current= [10,8,7,1,9,5,10,3]
+
 print("triling : ",trailing)
 print("current : ", current)
 
