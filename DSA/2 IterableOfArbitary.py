@@ -1,8 +1,8 @@
-#Unpacking Element from Iterable of Arbitrary
+"""Unpacking Element from Iterable of Arbitrary
 
 #def drop_first_last(grades):
 #    first, *middle, last = grades
-#    return avg(middle)
+#    return avg(middle)"""
 
 record = ("Dave","dave@gmail.com","8696617717","9721189988")
 name, email, *phone_number = record
