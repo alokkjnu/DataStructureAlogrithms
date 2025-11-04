@@ -1,4 +1,5 @@
-"""Unpacking Element from Iterable of Arbitrary
+"""
+Unpacking Element from Iterable of Arbitrary
 
 #def drop_first_last(grades):
 #    first, *middle, last = grades
