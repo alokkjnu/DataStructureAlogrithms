@@ -10,6 +10,7 @@ Unpacking Element from Iterable of Arbitrary
 record = ("Dave","dave@gmail.com","8696617000","9721189000")
 
 name, email, *phone_number = record
+
 print("name : ", name)
 print("email : " ,email)
 print("phone nu : ",phone_number)
