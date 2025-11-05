@@ -1,5 +1,5 @@
 """
-Upacking a Sequence into Seprate Variable
+Write a Python program to Upacking a Sequence into Seprate Variable.
 """
 
 p = (4,5)
