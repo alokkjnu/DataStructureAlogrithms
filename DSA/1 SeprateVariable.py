@@ -17,6 +17,7 @@ print("price = ",price)
 print(" date = ",date)
 
 s = "Hello"
+
 a,b,c,d,e = s
 print(a)
 print(b)
