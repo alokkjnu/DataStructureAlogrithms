@@ -37,6 +37,7 @@ d['c'].add(4)
 print(d)
 
 d = {}
+
 d.setdefault('a',[]).append(1)
 d.setdefault('b',[]).append(2)
 d.setdefault('c',[]).append(4)
