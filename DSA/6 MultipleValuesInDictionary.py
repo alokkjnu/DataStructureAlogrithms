@@ -1,4 +1,6 @@
-#Mapping Key to multiple Value in a Dictionary
+"""
+Mapping Key to multiple Value in a Dictionary
+"""
 
 d = {
     'a' : [1,2,3],
