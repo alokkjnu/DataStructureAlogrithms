@@ -27,6 +27,7 @@ d['b'].append(2)
 d['c'].append(4)
 
 d = defaultdict(set)
+
 print(d)
 
 d['a'].add(1)
