@@ -14,6 +14,7 @@ e = {
 print(d['a'])
 
 a = {'alok':1,'uday':2}
+
 print(a['alok'])
 
 from collections import defaultdict
