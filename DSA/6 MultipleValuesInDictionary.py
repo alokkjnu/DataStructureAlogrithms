@@ -33,6 +33,7 @@ print(d)
 d['a'].add(1)
 d['b'].add(2)
 d['c'].add(4)
+
 print(d)
 
 d = {}
