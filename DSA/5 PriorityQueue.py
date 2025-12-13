@@ -1,4 +1,6 @@
-#Implementing a Priority Queue
+""""
+Implementing a Priority Queue
+"""
 
 import heapq
 class PriorityQueue:
