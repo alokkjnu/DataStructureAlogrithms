@@ -24,6 +24,7 @@ cheap = heapq.nsmallest(3,portfolio,key=lambda s:s['price'])
 print(cheap)
 
 expensive = heapq.nlargest(3,portfolio,key=lambda s:s['price'])
+
 print(expensive)
 
 nums = [1,2,3,4,-4,54,23,20,21,8,9,7,6,5]
