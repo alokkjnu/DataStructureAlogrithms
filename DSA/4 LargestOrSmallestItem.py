@@ -35,6 +35,7 @@ heapq.heapify(heap)
 print(heap)
 
 heapq.heappop(heap)
+
 print(heap)
 heapq.heappop(heap)
 print(heap)
