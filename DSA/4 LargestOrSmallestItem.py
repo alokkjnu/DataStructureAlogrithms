@@ -20,6 +20,7 @@ portfolio = [
 ]
 
 cheap = heapq.nsmallest(3,portfolio,key=lambda s:s['price'])
+
 print(cheap)
 expensive = heapq.nlargest(3,portfolio,key=lambda s:s['price'])
 print(expensive)
