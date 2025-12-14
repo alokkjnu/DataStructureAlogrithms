@@ -6,7 +6,6 @@ nums = [1,2,3,4,-4,54,23,20,21,8,9,7,6,5]
 print(heapq.nlargest(3,nums))
 print(heapq.nsmallest(3,nums))
 
-
 portfolio = [
     {'name':'IBM','shares': 100, 'price':91.1},
     {'name':'AAPL','shares': 50, 'price':543.12},
