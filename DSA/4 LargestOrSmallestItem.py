@@ -29,6 +29,7 @@ print(expensive)
 
 nums = [1,2,3,4,-4,54,23,20,21,8,9,7,6,5]
 heap = list(nums)
+
 heapq.heapify(heap)
 print(heap)
 heapq.heappop(heap)
