@@ -1,7 +1,6 @@
 """
 Keeping Dictionaries in Order
 """
-
 from collections import OrderedDict
 d = OrderedDict()
 d['foo'] = 1
