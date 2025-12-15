@@ -5,6 +5,7 @@ Keeping Dictionaries in Order
 from collections import OrderedDict
 
 d = OrderedDict()
+
 d['foo'] = 1
 d['bar'] = 2
 d['spam'] = 3
