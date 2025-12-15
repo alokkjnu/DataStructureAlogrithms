@@ -1,6 +1,7 @@
 """
 Calculating with Dictionaries
 """
+
 price = {
     'ACME' : 45.23,
     'AAPL' : 612.78,
