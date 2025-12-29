@@ -1,5 +1,4 @@
-#Removing duplicates from a sequence while maintaining order
-#Removing Duplicates from Sequence while Maintaining Order
+Removing Duplicates from Sequence while Maintaining Order
 
 from typing import ItemsView
 
