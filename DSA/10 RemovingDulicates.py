@@ -5,8 +5,9 @@ Removing Duplicates from Sequence while Maintaining Order
 from typing import ItemsView
 
 def dedupe(items):
-    
+
     seen = set()
+    
     for item in items:
         if item not in seen:
             yield item
