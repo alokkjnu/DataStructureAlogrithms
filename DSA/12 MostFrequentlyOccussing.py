@@ -22,6 +22,7 @@ morewords = ['why','are','you','not','looking','in','my','eyes']
 
 for word in morewords:
     word_count[word] +=1
+    
 print(word_count['eyes'])
 
 #combining Dictionaries using mathematical operators
