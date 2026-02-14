@@ -19,6 +19,7 @@ print(word_count['not'])
 #Increment the count manually
 
 morewords = ['why','are','you','not','looking','in','my','eyes']
+
 for word in morewords:
     word_count[word] +=1
 print(word_count['eyes'])
