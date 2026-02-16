@@ -10,6 +10,7 @@ words = [
 
 word_count = Counter(words)
 top_three = word_count.most_common(3)
+
 print(top_three)
 print(word_count['eyes'])
 print(word_count['not'])
