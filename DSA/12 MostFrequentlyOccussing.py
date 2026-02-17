@@ -1,4 +1,6 @@
-#Determining the most Frequently Occuring Items in a Sequence
+"""
+Python program to Determining the most Frequently Occuring Items in a Sequence
+"""
 from collections import Counter
 
 words = [ 
