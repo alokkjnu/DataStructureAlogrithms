@@ -20,4 +20,5 @@ a = slice(2,4)
 print(a)
 
 a = items[2:4]
+
 print(a)
