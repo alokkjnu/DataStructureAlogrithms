@@ -11,6 +11,7 @@ shares = slice(20,32)
 price = slice(40,48)
 
 cost = int(record[shares])* float(record[price])
+
 print(cost)
 
 items = [0,1,2,3,4,5,6]
