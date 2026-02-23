@@ -1,5 +1,6 @@
-#Naming a Slice
-
+"""
+Python program for Naming a Slice
+"""
 record = '012345678901234567890123456789012345678901234567890123456789012345678901234567890'
 cost = int(record[20:32]) * float(record[40:48])
 
