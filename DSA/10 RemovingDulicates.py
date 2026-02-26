@@ -39,4 +39,5 @@ b = list(dedupe(a, key= lambda d:(d['x'],d['y'])))
 print(b)
 
 c = list(dedupe(a,key=lambda d:(d['x'])))
+
 print(c)
