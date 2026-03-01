@@ -35,6 +35,7 @@ def dedupe(items,key=None):
 a = [{'x': 1, 'y': 2},{'x':1,'y':3},{'x':1,'y':2},{'x':2,'y':4}]
 
 b = list(dedupe(a, key= lambda d:(d['x'],d['y'])))
+
 print(b)
 c = list(dedupe(a,key=lambda d:(d['x'])))
 print(c)
