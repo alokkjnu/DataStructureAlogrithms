@@ -28,11 +28,12 @@ def dedupe(items,key=None):
         val = item if key is None else key(item)
 
         if val not in seen:
-            
+
             yield seen
             seen.add(val)
 
 a = [{'x': 1, 'y': 2},{'x':1,'y':3},{'x':1,'y':2},{'x':2,'y':4}]
+
 b = list(dedupe(a, key= lambda d:(d['x'],d['y'])))
 print(b)
 c = list(dedupe(a,key=lambda d:(d['x'])))
