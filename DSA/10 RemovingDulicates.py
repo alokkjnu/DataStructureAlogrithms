@@ -1,5 +1,5 @@
 """
-Removing Duplicates from Sequence while Maintaining Order
+Python Program to Removing Duplicates from Sequence while Maintaining Order
 """
 
 from typing import ItemsView
