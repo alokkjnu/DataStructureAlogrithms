@@ -25,4 +25,5 @@ print(a.items() & b.items())
 c = { 
     key : a[key] for key in a.keys() - {'z','w'}
     }
+
 print(c)
