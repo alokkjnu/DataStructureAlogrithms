@@ -15,7 +15,6 @@ b = {
 }
 
 print(a.keys() & b.keys())
-
 print(a.keys() - b.keys())
 
 print(a.items() & b.items())
