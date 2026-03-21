@@ -2,6 +2,7 @@
 Sorting a List of Dictionaries by a common Key
 """
 from operator import itemgetter
+
 rows = [
     {'fname':'Brain','lname':'Jones','uid':1003},
     {'fname':'David','lname':'Beazley','uid':1002},
